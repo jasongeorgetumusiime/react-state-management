@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 
-export const useNetwork = ({ url, method, headers }) => {
+export const useNetwork = ({url, method, headers}) => {
   let [state, setState] = useState({loading: true})
 
   useEffect(() => {
