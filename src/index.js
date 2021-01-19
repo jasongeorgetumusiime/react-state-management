@@ -7,7 +7,8 @@ import ReactDOM from 'react-dom';
 // import App from './06-network-hook/App';
 // import App from './07-useStorage/App';
 // import App from './08-infinite-rerender/App';
-import App from './09-skipping-dependencies/App';
+// import App from './09-skipping-dependencies/App';
+import App from './10-useCallback/App';
 
 ReactDOM.render(
   <React.StrictMode>
